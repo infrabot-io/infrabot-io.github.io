@@ -1,0 +1,33 @@
+{
+  "short_name": "infrabot.io",
+  "name": "Infrabot: Control your infrastructure via Telegram Bot",
+  "description": "Administer infrastructure using Telegram Bot",
+  "icons": [
+    {
+      "src": "../img/logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../img/logo.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/index",
+  "background_color": "#F75D55",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#F75D55",
+  "shortcuts": [
+    {
+      "name": "infrabot.io",
+      "short_name": "Bot to administer your infrastructure",
+      "description": "Bot to administer your infrastructure",
+      "url": "/index",
+      "icons": [{ "src": "../img/logo.png", "sizes": "256x256" }]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+body {
+    font-family: overpass;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.body-container {
+    margin-top: 85px !important;
+}
+
+.body-jumbotron-index {
+    margin-top: 65px !important;
+}
+
+.infrabot-header {
+    max-width: 700px;
+}
+
+.kbd-infrabot {
+    background-color: #F75D55;
+}
+
+.jumbotron-header-infrabot {
+    background: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 0px;
+    margin-top: -1px;
+}
+
+.text-infrabot {
+    color: #F75D55;
+}
+
+.logo-link {
+    color: black;
+    text-decoration: none;
+}
+
+.addon-ranking {
+    height: 24px;
+    width: 24px;
+}
+
+input:invalid {
+    border: 1px dashed #F75D55;
+}
+
+.text-muted-infrabot {
+    color: #fbb0ac !important;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 438px) and (max-width: 768px) {
+    .body-container {
+        margin-top: 155px !important;
+    }
+
+    .body-jumbotron-index {
+        margin-top: 128px !important;
+    }
+}
+
+@media (max-width: 437px) {
+    .body-container {
+        margin-top: 185px !important;
+    }
+
+    .body-jumbotron-index {
+        margin-top: 152px !important;
+    }
+}
+
+.pre-break {
+    white-space: pre-wrap;
+    /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+}
+
+.pre-line {
+    white-space: pre-line;
+    /* Since CSS 2.1 */
+    white-space: -moz-pre-line;
+    /* Mozilla, since 1999 */
+    white-space: -pre-line;
+    /* Opera 4-6 */
+    white-space: -o-pre-line;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+}
+
+.team-member-image {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.team-member-networks {
+    height: 20px;
+    width: 20px;
+}
+
+.scroll-up-bar {
+    position: fixed;
+    width: 64px;
+    height: 100%;
+    background: #f8f9fa;
+    display: none;
+    margin-top: -64px;
+}
+
+.scroll-up-bar-button {
+    top: 50%;
+    position: relative;
+    left: 25%;
+    width: 32px;
+    height: 32px;
+    z-index: -99;
+}
+
+.font-12px {
+    font-size: 12px;
+}
+
+.font-18px {
+    font-size: 18px;
+}
+
+.anchor-link-header {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-link-header:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: #dc3545;
+}
+
+.anchor-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: center;
+    color: #ccc;
+    border-right: 1px solid #CCC;
+    vertical-align: top;
+    padding-right: 5px !important;
+}
+
+/* for block of code */
+.hljs-ln-code {
+    padding-left: 10px !important;
+}
+
+.list-group-item-selected {
+    background: #DAE0E5 !important;
+}
